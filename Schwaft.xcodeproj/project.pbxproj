@@ -34,6 +34,7 @@
 		7AC97FDE193E506A00B1B2CC /* SchwaftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchwaftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AC97FE3193E506A00B1B2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC97FE4193E506A00B1B2CC /* SchwaftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchwaftTests.swift; sourceTree = "<group>"; };
+		7AC97FEE193E522800B1B2CC /* SwiftBook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftBook.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 				7AC97FD1193E506A00B1B2CC /* AppDelegate.swift */,
 				7AC97FD3193E506A00B1B2CC /* ViewController.swift */,
 				7AC97FD5193E506A00B1B2CC /* Main.storyboard */,
+				7AC97FEE193E522800B1B2CC /* SwiftBook.playground */,
 				7AC97FD8193E506A00B1B2CC /* Images.xcassets */,
 				7AC97FCF193E506A00B1B2CC /* Supporting Files */,
 			);
@@ -399,6 +401,7 @@
 				7AC97FEA193E506A00B1B2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7AC97FEB193E506A00B1B2CC /* Build configuration list for PBXNativeTarget "SchwaftTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +410,7 @@
 				7AC97FED193E506A00B1B2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
