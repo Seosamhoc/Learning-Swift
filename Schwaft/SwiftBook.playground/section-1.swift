@@ -1,6 +1,7 @@
 // Playground - noun: a place where people can play
 
 import UIKit
+import Darwin
 
 //A Swift Tour Excerpt from: Apple Inc. “The Swift Programming Language.” iBooks. https://itun.es/ie/jEUH0.l
 
@@ -97,4 +98,53 @@ numbers.map({
     return result
 })
 
+//“Add a constant property with let, and add another method that takes an argument.”
+class Shape {
+    let maxAngle = 180
+    var angle = 0
+    var numberOfSides = 0
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides."
+    }
+    func cornerDescription() -> String {
+        return "The corner has an angle of \(angle) degrees."
+    }
+}
+var shape = Shape()
+shape.numberOfSides = 7
+var shapeDescription = shape.simpleDescription()
+
+//“Make another subclass of NamedShape called Circle that takes a radius and a name as arguments to its initializer. Implement an area and a describe method on the Circle class.”
+class NamedShape {
+    var numberOfSides: Int = 0
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides."
+    }
+}
+
+class Circle: NamedShape {
+    var radius: Double
+    
+    init(radius: Double, name: String) {
+        self.radius = radius
+        super.init(name: name)
+    }
+    
+    func area() ->  Double {
+        return M_PI * radius * radius
+    }
+    
+    override func simpleDescription() -> String {
+        return "A circle with radius \(radius)."
+    }
+}
+let roundy = Circle(radius: 3.0, name: "test circle")
+roundy.area()
+roundy.simpleDescription()
 

@@ -6,14 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		7AC97FD2193E506A00B1B2CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC97FD1193E506A00B1B2CC /* AppDelegate.swift */; };
-		7AC97FD4193E506A00B1B2CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC97FD3193E506A00B1B2CC /* ViewController.swift */; };
-		7AC97FD7193E506A00B1B2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC97FD5193E506A00B1B2CC /* Main.storyboard */; };
-		7AC97FD9193E506A00B1B2CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC97FD8193E506A00B1B2CC /* Images.xcassets */; };
-		7AC97FE5193E506A00B1B2CC /* SchwaftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC97FE4193E506A00B1B2CC /* SchwaftTests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		7AC97FDF193E506A00B1B2CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -25,15 +17,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7AC97FCC193E506A00B1B2CC /* Schwaft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schwaft.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AC97FD0193E506A00B1B2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AC97FD1193E506A00B1B2CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7AC97FD3193E506A00B1B2CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7AC97FD6193E506A00B1B2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7AC97FD8193E506A00B1B2CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7AC97FDE193E506A00B1B2CC /* SchwaftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchwaftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AC97FE3193E506A00B1B2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7AC97FE4193E506A00B1B2CC /* SchwaftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchwaftTests.swift; sourceTree = "<group>"; };
+		7AC97FCC193E506A00B1B2CC /* Schwaft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Schwaft.app; path = "/Users/seosamh/Documents/Cocoa/Schwaft/build/Debug-iphoneos/Schwaft.app"; sourceTree = "<absolute>"; };
+		7AC97FDE193E506A00B1B2CC /* SchwaftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SchwaftTests.xctest; path = "/Users/seosamh/Documents/Cocoa/Schwaft/build/Debug-iphoneos/SchwaftTests.xctest"; sourceTree = "<absolute>"; };
 		7AC97FEE193E522800B1B2CC /* SwiftBook.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftBook.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,56 +44,15 @@
 			isa = PBXGroup;
 			children = (
 				7AC97FCE193E506A00B1B2CC /* Schwaft */,
-				7AC97FE1193E506A00B1B2CC /* SchwaftTests */,
-				7AC97FCD193E506A00B1B2CC /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		7AC97FCD193E506A00B1B2CC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7AC97FCC193E506A00B1B2CC /* Schwaft.app */,
-				7AC97FDE193E506A00B1B2CC /* SchwaftTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7AC97FCE193E506A00B1B2CC /* Schwaft */ = {
 			isa = PBXGroup;
 			children = (
-				7AC97FD1193E506A00B1B2CC /* AppDelegate.swift */,
-				7AC97FD3193E506A00B1B2CC /* ViewController.swift */,
-				7AC97FD5193E506A00B1B2CC /* Main.storyboard */,
 				7AC97FEE193E522800B1B2CC /* SwiftBook.playground */,
-				7AC97FD8193E506A00B1B2CC /* Images.xcassets */,
-				7AC97FCF193E506A00B1B2CC /* Supporting Files */,
 			);
 			path = Schwaft;
-			sourceTree = "<group>";
-		};
-		7AC97FCF193E506A00B1B2CC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AC97FD0193E506A00B1B2CC /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7AC97FE1193E506A00B1B2CC /* SchwaftTests */ = {
-			isa = PBXGroup;
-			children = (
-				7AC97FE4193E506A00B1B2CC /* SchwaftTests.swift */,
-				7AC97FE2193E506A00B1B2CC /* Supporting Files */,
-			);
-			path = SchwaftTests;
-			sourceTree = "<group>";
-		};
-		7AC97FE2193E506A00B1B2CC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7AC97FE3193E506A00B1B2CC /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +120,7 @@
 				Base,
 			);
 			mainGroup = 7AC97FC3193E506A00B1B2CC;
-			productRefGroup = 7AC97FCD193E506A00B1B2CC /* Products */;
+			productRefGroup = 7AC97FC3193E506A00B1B2CC;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -191,8 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC97FD7193E506A00B1B2CC /* Main.storyboard in Resources */,
-				7AC97FD9193E506A00B1B2CC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC97FD4193E506A00B1B2CC /* ViewController.swift in Sources */,
-				7AC97FD2193E506A00B1B2CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AC97FE5193E506A00B1B2CC /* SchwaftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,17 +171,6 @@
 			targetProxy = 7AC97FDF193E506A00B1B2CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7AC97FD5193E506A00B1B2CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AC97FD6193E506A00B1B2CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7AC97FE6193E506A00B1B2CC /* Debug */ = {
